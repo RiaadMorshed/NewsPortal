@@ -1,22 +1,24 @@
 {
-  "name": "news_portal",
+  "name": "server",
   "version": "1.0.0",
-  "description": "News Service website using the MERN Stack.",
-  "main": "server.js",
+  "description": "news portal web application using mern stack",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Morshed",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
-    "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "concurrently": "^3.6.0",
-    "express": "^4.16.3",
-    "mongoose": "^6.0.2"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.4",
+    "multer": "^1.4.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

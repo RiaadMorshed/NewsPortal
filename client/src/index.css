@@ -45,3 +45,8 @@
   .right{
     width: 30%;
   }
+
+  .auth-btn a{
+    border: 2px solid salmon;
+    margin: auto 10px;
+  }
